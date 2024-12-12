@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gym Fluencer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">GymFluencer</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#diet-hero">Diet Plan</a></li>
+        <li><a href="#workout-plans">Workout Plans</a></li>
+        <li><a href="#contact-us">Contact Us</a></li>
+      </ul>
+      <div class="nav-buttons">
+        <a href="login.html" class="btn btn-login">Login</a>
+        <a href="signup.html" class="btn btn-signup">Sign Up</a>
+      </div>      
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Transform Your Fitness Journey</h1>
+      <p>Your guide to health, fitness, and confidence starts here!</p>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="features-plan">
+    <h2>Choose Your Feature</h2>
+    <p>Explore our exclusive fitness features to enhance your journey!</p>
+    <div class="features-options">
+      <button class="features-button">
+        <img src="images/eeffortless-workout.jpg" alt="Effortless Workout Logging">
+        <span>Effortless Workout Logging</span>
+      </button>
+      <button class="features-button">
+        <img src="images/accurate-rep.jpg" alt="Accurate Rep Counting">
+        <span>Accurate Rep Counting</span>
+      </button>
+      <button class="features-button">
+        <img src="images/calorie-calculator.jpg" alt="Calorie Calculator">
+        <span>Calorie Calculator</span>
+      </button>
+      <button class="features-button">
+        <img src="images/personalized-workout.jpg" alt="Personalized Workout Plan">
+        <span>Personalized Workout Plan</span>
+      </button>
+      <button class="features-button">
+        <img src="images/personalized-diet.jpg" alt="Personalized Diet Plan">
+        <span>Personalized Diet Plan</span>
+      </button>
+    </div>
+  </section>
+
+  <section id="diet-hero" class="diet-hero">
+    <h1>Personalized Diet Plans</h1>
+    <p>Fuel your fitness journey with tailored meal plans and expert advice.</p>
+  </section>
+
+  <!-- Personalized Diet Plan -->
+  <section class="diet-custom">
+    <h2>Get Your Personalized Plan</h2>
+    <form class="diet-form">
+      <label for="goal">Your Goal:</label>
+      <select id="goal" name="goal" required>
+        <option value="">Select Goal</option>
+        <option value="weight-loss">Weight Loss</option>
+        <option value="muscle-gain">Muscle Gain</option>
+        <option value="maintenance">Maintenance</option>
+      </select>
+
+      <label for="diet-type">Diet Preference:</label>
+      <select id="diet-type" name="diet-type" required>
+        <option value="">Select Preference</option>
+        <option value="vegetarian">Vegetarian</option>
+        <option value="vegan">Vegan</option>
+        <option value="keto">Keto</option>
+        <option value="balanced">Balanced</option>
+      </select>
+
+      <button type="submit" class="btn">Generate Plan</button>
+    </form>
+  </section>
+
+  <!-- Calorie Tracker Section -->
+<section class="calorie-tracker">
+  <h2>Calorie Tracker</h2>
+  <p>Track your daily calorie intake to stay on target.</p>
+  <a href="calorie-tracker.html" class="btn">Know More</a>
+</section>
+
+ <!-- Hero Section -->
+ <section id="workout-plans" class="workout-hero">
+  <h1>Workout Plans</h1>
+  <p>Achieve your fitness goals with structured workout plans designed for every level.</p>
+</section>
+
+<!-- Workout Plans Section -->
+<section class="workout-plans">
+  <h2>Weekly Workout Schedule</h2>
+  <div class="workout-cards">
+    <div class="workout-card">
+      <h3>Day 1 - Upper Body</h3>
+      <ul>
+        <li>Push-ups - 3 sets of 15 reps</li>
+        <li>Pull-ups - 3 sets of 10 reps</li>
+        <li>Bench Press - 3 sets of 12 reps</li>
+      </ul>
+    </div>
+    <div class="workout-card">
+      <h3>Day 2 - Lower Body</h3>
+      <ul>
+        <li>Squats - 3 sets of 20 reps</li>
+        <li>Deadlifts - 3 sets of 12 reps</li>
+        <li>Lunges - 3 sets of 15 reps per leg</li>
+      </ul>
+    </div>
+    <div class="workout-card">
+      <h3>Day 3 - Cardio & Core</h3>
+      <ul>
+        <li>Running - 30 minutes</li>
+        <li>Plank - 3 sets of 1 minute</li>
+        <li>Crunches - 3 sets of 20 reps</li>
+      </ul>
+    </div>
+    <div class="workout-card">
+      <h3>Day 4 - Upper Body Strength</h3>
+      <ul>
+        <li>Pull-ups - 3 sets of 8 reps</li>
+        <li>Overhead Press - 3 sets of 10 reps</li>
+        <li>Tricep Dips - 3 sets of 15 reps</li>
+      </ul>
+    </div>
+    <div class="workout-card">
+      <h3>Day 5 - Lower Body Power</h3>
+      <ul>
+        <li>Bulgarian Split Squats - 3 sets of 12 reps per leg</li>
+        <li>Romanian Deadlifts - 3 sets of 12 reps</li>
+        <li>Step-Ups - 3 sets of 15 reps per leg</li>
+      </ul>
+    </div>
+    <div class="workout-card">
+      <h3>Day 6 - Cardio & Mobility</h3>
+      <ul>
+        <li>Cycling - 45 minutes</li>
+        <li>Yoga - 30 minutes</li>
+        <li>Foam Rolling - 15 minutes</li>
+      </ul>
+    </div>
+    <div class="workout-card">
+      <h3>Day 7 - Rest & Recovery</h3>
+      <ul>
+        <li>Stretching - 20 minutes</li>
+        <li>Light Walk - 30 minutes</li>
+        <li>Meditation - 10 minutes</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+  <!-- Contact Us Section -->
+  <section id="contact-us" class="contact-us">
+    <h2>Contact Us</h2>
+    <p>For more details contact us here.</p>
+    <a href="contact.html" class="btn_contact_us">Contact US</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 GymFluencer. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
